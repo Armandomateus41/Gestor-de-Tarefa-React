@@ -1,0 +1,34 @@
+import './App.css';
+import FirstComponents from './components/firstComponents';
+import AnotherComponent from './components/AnotherComponent';
+ import Images from './components/images';
+import Hooks from './components/Hooks';
+import List from './components/List';
+import RenderCond from './components/RenderCond';
+import  Fragment from "./components/Fragment";
+import Container from './components/Container';
+
+
+
+
+
+
+function App() {
+  return (
+    <div className="App">
+      <h2>Hello React</h2>
+      <FirstComponents />
+      <AnotherComponent/>
+      <Images />
+      <Hooks />
+      <List />
+      <RenderCond x= {8} y ={10} />
+      <Fragment />
+      <Container>Este e o filho container!</Container>
+      
+     
+    </div>
+  );
+}
+
+export default App;
